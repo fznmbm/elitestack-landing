@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-950">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EliteStack | Ready to Build the Next Elite Application?</title>
+
+    <meta
+      name="description"
+      content="EliteStack engineers custom, high-performance web and mobile applications. We Engineer Digital Excellence. Connect with us today."
+    />
+    <meta name="author" content="EliteStack" />
+
+    <link
+      rel="icon"
+      href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4bb.svg"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "elite-bg": "#0a0a0a",
+              "elite-accent": "#6366f1",
+              "elite-text": "#e5e7eb",
+            },
+            fontFamily: {
+              sans: ["system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      .modern-bg {
+        background-color: #0a0a0a;
+        background-image: radial-gradient(
+            at 0% 0%,
+            #1f2937 0px,
+            transparent 50%
+          ),
+          radial-gradient(at 100% 100%, #1f2937 0px, transparent 50%);
+      }
+      .glow-btn {
+        transition: all 0.25s ease;
+        box-shadow: 0 0 0 rgba(99, 102, 241, 0);
+      }
+      .glow-btn:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: 0 0 12px rgba(99, 102, 241, 0.5),
+          0 0 24px rgba(99, 102, 241, 0.35);
+      }
+    </style>
+  </head>
+
+  <body class="h-full antialiased text-elite-text modern-bg">
+    <div class="min-h-full flex flex-col justify-center items-center p-6">
+      <main
+        class="w-full max-w-xl bg-[#131313] shadow-2xl shadow-indigo-900/30 rounded-2xl p-8 sm:p-12 border border-gray-800 animate-fadeIn"
+      >
+        <header class="text-center mb-12">
+          <p
+            class="text-s font-semibold uppercase tracking-[0.8em] text-elite-accent mb-2"
+          >
+            ELITESTACK
+          </p>
+          <h1
+            class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight"
+          >
+            Ready to Build the Next Elite Application?
+          </h1>
+          <p class="mt-4 text-lg font-medium text-gray-400 italic">
+            We Engineer Digital Excellence. Code Built for Scale. Designed for
+            Impact.
+          </p>
+        </header>
+
+        <section class="text-center mb-12">
+          <p class="text-gray-400 leading-relaxed max-w-sm mx-auto">
+            We help businesses build high‑performance, scalable and beautifully
+            engineered digital products. We can help you bring your vision to
+            life. Connect with the stack that delivers.
+          </p>
+        </section>
+
+        <div class="space-y-4 text-center">
+          <a
+            href="mailto:elitestackhq@gmail.com"
+            class="inline-block w-full px-6 py-3 rounded-lg font-semibold text-white bg-elite-accent hover:bg-indigo-600 glow-btn"
+          >
+             Email Us
+          </a>
+
+          <a
+            href="https://wa.me/447889117767?text=Hello%20EliteStack%2C%20I'm%20interested%20in%20discussing%20a%20new%20project."
+            target="_blank"
+            class="inline-block w-full px-6 py-3 rounded-lg font-semibold text-white bg-elite-accent hover:bg-indigo-600 glow-btn"
+          >
+             WhatsApp
+          </a>
+        </div>
+      </main>
+
+      <footer class="mt-8 text-xs text-gray-600">
+        <p>&copy; 2025 EliteStack. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
